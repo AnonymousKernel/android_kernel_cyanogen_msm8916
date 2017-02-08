@@ -19,7 +19,7 @@
 KERNEL_DIR=$PWD
 KERN_IMG=$KERNEL_DIR/arch/arm64/boot/Image
 DTBTOOL=$KERNEL_DIR/tools/dtbToolCM
-FINAL_KERNEL_ZIP=Anonymous-R3-Tomato.zip
+FINAL_KERNEL_ZIP=Anonymous-Vx-Tomato.zip
 ZIP_MAKER_DIR=$KERNEL_DIR/ZipMaker/
 
 BUILD_START=$(date +"%s")
@@ -33,8 +33,8 @@ nocol='\033[0m'
 export CROSS_COMPILE="/home/skull/android/toolchain/bin/aarch64-linux-android-"
 export ARCH=arm64
 export SUBARCH=arm64
-export KBUILD_BUILD_USER="Skull"
-export KBUILD_BUILD_HOST="TheDeathMachine"
+export KBUILD_BUILD_USER="Mr-Skull"
+export KBUILD_BUILD_HOST="TheHackersMachine"
 STRIP="/home/skull/android/toolchain/bin/aarch64-linux-android-strip"
 MODULES_DIR=$KERNEL_DIR/drivers/staging/prima/
 
