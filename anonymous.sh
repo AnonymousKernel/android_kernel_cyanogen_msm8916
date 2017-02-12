@@ -35,6 +35,7 @@ export ARCH=arm64
 export SUBARCH=arm64
 export KBUILD_BUILD_USER="Mr-Skull"
 export KBUILD_BUILD_HOST="TheHackersMachine"
+export LOCALVERSION="-Anonymous™-VX"
 STRIP="/home/skull/android/toolchain/bin/aarch64-linux-android-strip"
 MODULES_DIR=$KERNEL_DIR/drivers/staging/prima/
 
