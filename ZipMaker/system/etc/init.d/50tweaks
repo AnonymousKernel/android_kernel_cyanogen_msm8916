@@ -52,17 +52,6 @@ echo "1 800000:85 1000000:90" > /sys/devices/system/cpu/cpu4/cpufreq/interactive
 echo 50000 > /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time
 
 
-# HMP Task-Packing Settings for MSM8939---
-echo 0 > /proc/sys/kernel/sched_boost
-echo 9 > /proc/sys/kernel/sched_upmigrate_min_nice
-echo 65 > /proc/sys/kernel/sched_small_task
-echo 20 > /proc/sys/kernel/sched_mostly_idle_load
-
-# HMP Scheduler (big.Little Architecture) Settings---
-echo 95 > /proc/sys/kernel/sched_upmigrate
-echo 80 > /proc/sys/kernel/sched_downmigrate
-
-
 # Misc
 echo 128 > /proc/sys/kernel/random/read_wakeup_threshold
 echo 256 > /proc/sys/kernel/random/write_wakeup_threshold
